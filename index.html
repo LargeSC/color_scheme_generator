@@ -1,12 +1,15 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
         <title>Color Scheme Generator</title>
+        <script src="index.js" defer type="module"></script>
         
     </head>
     <body>
@@ -21,15 +24,16 @@
                   <option value="analogic-complement">Analogic-complement</option>
                   <option value="triad">Triad</option>
             </select>
-            <button class="btn" id="get-scheme">Get Color Scheme</button>
-            <!-- <button class="btn" id="save-scheme">Save</button> -->
+            <button class="btn" id="get-scheme">Create Scheme</button>
+            <a class="btn" id="save-scheme">Save Scheme</a>
         </header>
-        <div class="container" id="color-container">
+        <div class="main-container" id="color-container">
             <!-- This is where the DIVs will appear -->
         </div>
+        <a class="btn btn-large" id="saved-schemes" href="./saved.html">My Saved</a>
+
         <div class="modal" id="modal"
             <p>Copied to Clipboard</p>
         </div>
-        <script src="index.js"></script>
     </body>
 </html>
