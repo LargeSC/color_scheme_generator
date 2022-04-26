@@ -122,8 +122,6 @@ input{
     align-items: center;
     opacity: 0;
     transition: opacity 200ms;
-<<<<<<< Updated upstream
-=======
 }
 
 @media (max-width:450px){
@@ -190,5 +188,4 @@ input{
 .saved-title{
     margin: .5em;
     font-size: 1.2rem;
->>>>>>> Stashed changes
 }
